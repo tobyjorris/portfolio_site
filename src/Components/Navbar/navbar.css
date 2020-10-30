@@ -1,16 +1,17 @@
-.navbar {
+.toolbar {
     font-size: 1.8rem;
-    margin: 20px 65px;
+    padding: 40px 70px;
+    height: 90px !important;
 }
 
-.navbar button {
+.toolbar button {
     background-color: gray;
 }
 
 #brand_text {
     color: black;
     font-weight: bold;
-    font-size: 2.0rem;
+    font-size: 3.0rem;
 }
 
 #contact {
@@ -18,27 +19,48 @@
     font-size: 1.3rem;
     color: black;
     margin: 0 5px 0 5px;
-    padding-bottom: 3px !important;
-    padding-top: 3px !important;
+    padding-top: 8px !important;
 }
 
 .navbar-collapse.collapsing,
 .navbar-collapse.show {
-    background-color: rgba(0, 0, 0, .2) !important;
+    background-color: rgba(0, 0, 0, 1) !important;
 }
 
 .show .link, .collapsing .link {
     margin: 10px;
-    color: black !important;
+    color: white !important;
     padding-bottom: 3px !important;
     padding-top: 3px !important;
 }
 
+.show .link {
+    max-width: 115px;
+    align-self: center;
+}
+
 .show .link:hover {
-    border: none;
+    /*border: none;
     padding-bottom: 3px !important;
     padding-top: 3px !important;
-    font-weight: bold;
+    font-weight: bold; */
+}
+
+.link {
+    display: inline-block;
+}
+
+.link::after {
+    content: '';
+    width: 0;
+    height: 3px;
+    display: block;
+    background: white;
+    transition: 400ms;
+}
+
+.link:hover::after {
+    width: 100%;
 }
 
 a:hover {
@@ -46,15 +68,8 @@ a:hover {
 }
 
 .link {
-    color: black !important;
     margin: 0 10px;
-    padding-bottom: 3px !important;
-    padding-top: 3px !important;
-}
-
-.link:hover, #contact:hover {
-    border-bottom: 1px solid black;
-    padding-bottom: 2px !important;
+    padding-top: 10px !important;
 }
 
 @media (min-width: 280px) and (max-width: 576px) {
@@ -62,25 +77,21 @@ a:hover {
         font-size: 1.5rem;
     }
 
-    .navbar {
-        margin: auto;
+    .toolbar {
+        padding: 10px 30px;
     }
 }
 
 @media (min-width: 577px) and (max-width: 991px) {
-    .navbar {
-        margin: auto;
+    .toolbar {
         font-size: 1.5rem;
+        padding: 10px 30px;
     }
+
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
-    .navbar {
-        margin: 10px 30px;
-    }
 }
 
-@media (min-width: 1200px) {
-
-}
+@media (min-width: 1200px) {  }
 

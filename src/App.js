@@ -1,5 +1,6 @@
 import React from "react";
-import TitleSlide from './Components/Title Slide/titleSlide'
+import TitleSlide from './Components/Title Slide/titleSlide';
+import About from './Components/About/about'
 import './App.css';
 import Toolbar from "./Components/Navbar/navbar";
 
@@ -8,6 +9,7 @@ function App() {
     <div className="App">
         <Toolbar />
         <TitleSlide />
+        <About />
     </div>
   );
 }
