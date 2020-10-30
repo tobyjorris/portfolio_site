@@ -1,0 +1,36 @@
+.header {
+    background: url(../../Assets/header_photo_cropped_2.jpg) right;
+    background-size: cover;
+    min-width: 100%;
+}
+
+.spacer {
+    height: 1100px;
+    width: 100%;
+}
+
+@media (min-width: 280px) and (max-width: 576px) {
+    .header {
+        max-height: 400px;
+        padding-right: -100px;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 991px) {
+    .header {
+        max-height: 500px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .header {
+        max-height: 600px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .header {
+        max-height: 1100px;
+    }
+}
+

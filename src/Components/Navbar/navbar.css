@@ -1,0 +1,83 @@
+.navbar {
+    font-size: 1.8rem;
+    margin: 20px 75px;
+}
+
+.navbar button {
+    background-color: gray;
+}
+
+#brand_text {
+    color: black;
+    font-weight: bold;
+    font-size: 2.0rem;
+}
+
+#contact {
+    font-weight: bold;
+    font-size: 1.3rem;
+    color: black;
+    margin: 0 5px 0 5px;
+    padding-bottom: 3px !important;
+    padding-top: 3px !important;
+}
+
+.navbar-collapse.collapsing,
+.navbar-collapse.show {
+    background-color: rgba(0, 0, 0, .2) !important;
+}
+
+.show .link, .collapsing .link {
+    margin: 10px;
+    color: black !important;
+    padding-bottom: 3px !important;
+    padding-top: 3px !important;
+}
+
+.show .link:hover {
+    border: none;
+    padding-bottom: 3px !important;
+    padding-top: 3px !important;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: none !important;
+}
+
+.link {
+    color: black !important;
+    margin: 0 5px 0 5px;
+    padding-bottom: 3px !important;
+    padding-top: 3px !important;
+}
+
+.link:hover, #contact:hover {
+    border-bottom: 1px solid black;
+    padding-bottom: 2px !important;
+}
+
+@media (min-width: 280px) and (max-width: 576px) {
+    #brand_text {
+        font-size: 1.5rem;
+    }
+
+    .navbar {
+        margin: auto;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 991px) {
+    .navbar {
+        margin: auto;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+@media (min-width: 1200px) {
+
+}
+
