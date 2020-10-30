@@ -11,8 +11,8 @@
 
 @media (min-width: 280px) and (max-width: 576px) {
     .header {
-        max-height: 400px;
-        padding-right: -100px;
+        max-height: 450px;
+        background-position-x: 80%;
     }
 }
 
