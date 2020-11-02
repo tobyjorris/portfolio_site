@@ -45,7 +45,7 @@ class toolbar extends Component {
                             backgroundColor: this.state.status === "top" ? "rgba(0, 0, 0, 0.0)" : "rgba(204, 209, 217, 1)",
                             opacity: this.state.status === "top" ? "0%" : "100%",
                             transition: "400ms"
-                        }} fluid>
+                        }}>
                     <Navbar.Brand id="brand_text" href="/" onClick={this.handleBrandClick.bind(this)}>Toby Jorris</Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav" >
