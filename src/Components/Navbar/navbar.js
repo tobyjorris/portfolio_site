@@ -42,29 +42,26 @@ class toolbar extends Component {
         return (
                 <Navbar className="toolbar" collapseOnSelect expand="md" fixed="top"
                         style={{
-                            backgroundColor: this.state.status === "top" ? "rgba(0, 0, 0, 0.0)" : "rgba(0, 0, 0, 1)",
+                            backgroundColor: this.state.status === "top" ? "rgba(0, 0, 0, 0.0)" : "rgba(204, 209, 217, 1)",
+                            opacity: this.state.status === "top" ? "0%" : "100%",
                             transition: "400ms"
                         }} fluid>
-                    <Navbar.Brand id="brand_text" href="/" onClick={this.handleBrandClick.bind(this)} style={{color: this.state.status === "top" ? "black" : "white", transition: "400ms"}}>Toby Jorris</Navbar.Brand>
+                    <Navbar.Brand id="brand_text" href="/" onClick={this.handleBrandClick.bind(this)}>Toby Jorris</Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav" >
                         <Nav className="mr-auto">
                             <Link className="link" to="about"
                                   spy={true} offset={-100} delay={0} smooth={false} duration={200}
-                                  style={{color: this.state.status === "top" ? "black" : "white", transition: "400ms"}}
                             >About</Link>
                             <Link className="link" to="experience"
                                   spy={true} offset={-100} delay={0} smooth={false} duration={200}
-                                  style={{color: this.state.status === "top" ? "black" : "white", transition: "400ms"}}
                             >Portfolio</Link>
                             <Link className="link" to="testimonials"
                                   spy={true} offset={-100} delay={0} smooth={false} duration={200}
-                                  style={{color: this.state.status === "top" ? "black" : "white", transition: "400ms"}}
                             >Hobbies</Link>
                         </Nav>
                         <Nav>
                             <Link className="link" to="contact" spy={true} smooth={false} duration={200}
-                                  style={{color: this.state.status === "top" ? "black" : "white", transition: "400ms"}}
                             >Connect</Link>
                         </Nav>
                     </Navbar.Collapse>

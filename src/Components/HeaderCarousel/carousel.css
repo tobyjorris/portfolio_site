@@ -1,0 +1,133 @@
+.wordCarousel {
+    font-size: 52px;
+    font-weight: 100;
+    color: black;
+}
+
+.carouselCol {
+    margin-left: 0;
+    padding-right: 0;
+}
+
+.wordCarouselDiv {
+    overflow: hidden;
+    position: relative;
+    height: 100px;
+    padding-top: 10px;
+    margin-top: -10px;
+}
+
+.carouselRow {
+    margin-top: 200px;
+}
+
+.flip4 li {
+    font-family: Serif sans-serif;
+    color: black;
+    font-weight: 700;
+    padding: 0 10px;
+    height: 45px;
+    margin-bottom: 45px;
+    display: block;
+}
+
+.flip4 {
+    padding: 0;
+    width: auto;
+}
+
+.flip2 { animation: flip2 6s cubic-bezier(0.23, 1, 0.32, 1.2) infinite; }
+.flip3 { animation: flip3 8s cubic-bezier(0.23, 1, 0.32, 1.2) infinite; }
+.flip4 { animation: flip4 10s cubic-bezier(0.23, 1, 0.32, 1.2) infinite; }
+
+@keyframes flip2 {
+    0% { margin-top: -180px; }
+    5% { margin-top: -90px;  }
+    50% { margin-top: -90px; }
+    55% { margin-top: 0 }
+    99.99% { margin-top: 0 }
+    100% { margin-top: -270px; }
+}
+
+@keyframes flip3 {
+    0% { margin-top: -270px; }
+    5% { margin-top: -180px; }
+    33% { margin-top: -180px; }
+    38% { margin-top: -90px; }
+    66% { margin-top: -90px; }
+    71% { margin-top: 0 }
+    99.99% { margin-top: 0 }
+    100% { margin-top: -270px; }
+}
+
+@keyframes flip4 {
+    0% { margin-top: -360px; }
+    5% { margin-top: -270px; }
+    25% { margin-top: -270px; }
+    30% { margin-top: -180px; }
+    50% { margin-top: -180px; }
+    55% { margin-top: -90px; }
+    75% { margin-top: -90px; }
+    80% { margin-top: 0 }
+    99.99% { margin-top: 0 }
+    100% { margin-top: -270px; }
+}
+
+
+@media (min-width: 280px) and (max-width: 576px) {
+    .wordCarousel {
+        font-size: 35px;
+    }
+
+    .carouselRow {
+        margin-top: 230px;
+    }
+
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+    .wordCarousel {
+        font-size: 25px;
+        margin: 0 20px;
+    }
+
+    .carouselRow {
+        margin-top: 125px;
+        margin-left: 0;
+    }
+
+    .secondCol {
+        padding-left: 0;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 991px) {
+    .wordCarousel {
+        font-size: 25px;
+    }
+
+    .carouselRow {
+        margin-top: 150px;
+        margin-left: 40px;
+    }
+
+    .carouselCol {
+        padding: 0;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .wordCarousel {
+        font-size: 40px;
+    }
+
+    .carouselCol {
+        margin-left: 20px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .carouselRow {
+
+    }
+}
