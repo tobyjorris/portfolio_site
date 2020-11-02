@@ -76,7 +76,7 @@
 
 @media (min-width: 280px) and (max-width: 576px) {
     .wordCarousel {
-        font-size: 35px;
+        display: none;
     }
 
     .carouselRow {

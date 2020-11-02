@@ -12,7 +12,7 @@
     color: black;
     font-weight: bold;
     font-size: 2.0rem;
-    padding-bottom: 10px;
+
 }
 
 #contact {
@@ -28,6 +28,10 @@
     background-color: rgba(204, 209, 217, .9) !important;
 }
 
+.navbar-toggler {
+    padding: 1px;
+}
+
 .show .link, .collapsing .link {
     padding-bottom: 3px !important;
 }
@@ -40,7 +44,7 @@
 .link {
     display: inline-block;
     color: black;
-    margin: 0 10px 10px 10px;
+    margin: 0 10px 5px 10px;
     padding-top: 10px !important;
 }
 
@@ -68,14 +72,15 @@ a:hover {
     }
 
     .toolbar {
-        padding: 10px 30px;
+        padding: 0 20px;
         opacity: 100% !important;
     }
 }
 
 @media (min-width: 577px) and (max-width: 991px) {
    #brand_text {
-       font-size: 35px;
+       font-size: 30px;
+       padding-top: 0;
    }
 
 }
