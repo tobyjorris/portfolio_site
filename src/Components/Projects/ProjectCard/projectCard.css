@@ -1,0 +1,70 @@
+.project_card {
+    height: 100%;
+    min-height: 220px;
+    color: white;
+    border-radius: 0;
+    border: none;
+    opacity: 85%;
+}
+
+.card-body {
+    padding: 10px;
+}
+
+.card_body {
+    height: 100%;
+}
+
+.card-title {
+    font-size: 1.7rem;
+}
+
+.project_card:hover {
+    opacity: 100%;
+}
+
+.project_title {
+    margin-bottom: 20px;
+}
+
+.piano {
+    background: url(../../../Assets/pianokeys.jpg) center center no-repeat;
+}
+
+.meal {
+    background: url(../../../Assets/MP_Thumb.jpg) center center no-repeat;
+}
+
+.trip {
+    background: url(../../../Assets/trip.jpg) center center no-repeat;
+}
+
+.weather {
+    background: url(../../../Assets/weather.jpg) center center no-repeat;
+}
+
+.burger {
+    background: url(../../../Assets/burger.jpg) center center no-repeat;
+}
+
+.card_link {
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+}
+
+.project_col {
+    margin-bottom: 15px;
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .project_col {
+        margin-bottom: 30px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .project_col {
+        margin-bottom: 30px;
+    }
+}

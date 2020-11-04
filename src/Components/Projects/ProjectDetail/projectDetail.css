@@ -1,0 +1,29 @@
+.slider {
+    background-color: gray;
+}
+
+.carousel {
+    height: 100%;
+}
+
+.carousel-caption {
+    position: initial;
+    padding-bottom: 0;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    width: 5%;
+}
+
+.h3, .h4 {
+    margin-bottom: 0 !important;
+}
+
+.project_photo {
+    padding: 10px;
+    max-width: 80%;
+}
+
+.slide {
+    padding: 0 20px;
+}

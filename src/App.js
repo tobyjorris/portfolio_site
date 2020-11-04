@@ -2,6 +2,7 @@ import React from "react";
 import TitleSlide from './Components/Title Slide/titleSlide';
 import About from './Components/About/about';
 import Projects from './Components/Projects/projects';
+import Connect from './Components/Connect/connect';
 import './App.css';
 import Toolbar from "./Components/Navbar/navbar";
 
@@ -12,6 +13,7 @@ function App() {
         <TitleSlide />
         <About />
         <Projects />
+        <Connect />
     </div>
   );
 }
