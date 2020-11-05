@@ -1,1 +1,12 @@
+.connect_logo {
+    max-width: 150px;
+    height: auto;
+    margin: 25px;
+    border: 1px solid black;
+    border-radius: 0;
+}
 
+.connect_logo:hover {
+    transform: scale(1.05);
+    transition: 400ms;
+}

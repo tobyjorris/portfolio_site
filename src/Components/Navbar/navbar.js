@@ -51,17 +51,14 @@ class toolbar extends Component {
                     <Navbar.Collapse id="responsive-navbar-nav" >
                         <Nav className="mr-auto">
                             <Link className="link" to="about"
-                                  spy={true} offset={-100} delay={0} smooth={false} duration={200}
+                                  spy={true} offset={-100} delay={0} smooth={true} duration={200}
                             >About</Link>
-                            <Link className="link" to="experience"
-                                  spy={true} offset={-100} delay={0} smooth={false} duration={200}
+                            <Link className="link" to="projects"
+                                  spy={true} offset={-100} delay={0} smooth={true} duration={200}
                             >Portfolio</Link>
-                            <Link className="link" to="testimonials"
-                                  spy={true} offset={-100} delay={0} smooth={false} duration={200}
-                            >Hobbies</Link>
                         </Nav>
                         <Nav>
-                            <Link className="link" to="contact" spy={true} smooth={false} duration={200}
+                            <Link className="link" to="connect" spy={true} smooth={true} duration={200}
                             >Connect</Link>
                         </Nav>
                     </Navbar.Collapse>

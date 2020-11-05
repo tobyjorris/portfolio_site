@@ -1,21 +1,17 @@
 import React from 'react';
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCard/projectCard";
-import MealPlannerPhoto from '../../Assets/MP_Thumb.jpg';
-import PianoPhoto from '../../Assets/pianokeys.jpg';
-import TripPhoto from '../../Assets/trip.jpg';
-import WeatherPhoto from '../../Assets/weather.jpg';
 import './projects.css';
 
 const projects = () => {
     return(
-        <Container >
+        <Container name="projects" className="projects" >
             <Row className="justify-content-xs-center">
                 <Col>
                     <h2 className="project_title">Projects</h2>
                 </Col>
             </Row>
-            <Row className="justify-content-md-center">
+            <Row className="justify-content-center">
                 <ProjectCard className="piano"
                              title="Landing Page"
                              organization="Cornerstone Piano School"
@@ -29,15 +25,15 @@ const projects = () => {
                              siteUrl="http://gccmealplanner.com"
                              githubUrl="https://github.com/tobyjorris/GCC-Meal-Planner"/>
                 <ProjectCard className="trip"
-                             title="Trip Planner"
-                             organization="Demo Project"
+                             title="Travel Planner"
+                             organization="Capstone - Udacity"
                              text="ES6 / Node / Express"
-                             githubUrl="https://github.com/tobyjorris/trip-planner"/>
+                             githubUrl="https://github.com/tobyjorris/travel-planner"/>
                 <ProjectCard className="weather"
                              title="Weather Journal"
                              organization="Demo Project"
                              text="ES6 / Node / Express"
-                             githubUrl="https://github.com/tobyjorris/weather_journal"/>
+                             githubUrl="https://github.com/tobyjorris/weather-journal"/>
                 <ProjectCard className="burger"
                              title="Burger Builder"
                              organization="Demo Project"
@@ -46,7 +42,7 @@ const projects = () => {
             </Row>
             <Row>
                 <Col>
-                    <hr/>
+                    <hr className="hr"/>
                 </Col>
             </Row>
         </Container>

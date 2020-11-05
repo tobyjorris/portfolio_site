@@ -5,7 +5,7 @@ import AboutGif from '../../Assets/about.gif';
 
 const about = () => {
     return(
-        <Container className="about" >
+        <Container name="about" className="about" >
             <Row>
                 <Col>
                     <h2 className="about_title">About Me</h2>
@@ -21,7 +21,7 @@ const about = () => {
             </Row>
             <Row>
                 <Col>
-                    <hr/>
+                    <hr className="hr"/>
                 </Col>
             </Row>
         </Container>

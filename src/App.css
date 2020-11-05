@@ -2,5 +2,18 @@
     text-align: center;
 }
 
+.hr {
+    margin: 50px;
+}
+
+h2 {
+    font-size: 3.5rem;
+}
+
+@media (max-width: 769px) {
+    .hr {
+        margin: 0;
+    }
+}
 
 

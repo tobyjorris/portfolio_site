@@ -20,7 +20,9 @@
 }
 
 .project_card:hover {
+    transform: scale(1.05);
     opacity: 100%;
+    transition: 400ms;
 }
 
 .project_title {
@@ -49,8 +51,27 @@
 
 .card_link {
     text-decoration: none;
+    display: inline-block;
     color: white;
-    margin: 20px;
+    margin: 10px;
+    width: auto;
+}
+
+.card_link::after {
+    content: '';
+    width: 0;
+    display: block;
+    height: 3px;
+    background: white;
+    transition: 400ms;
+}
+
+.card_link:hover::after {
+    width: 100%;
+}
+
+.card_link:hover {
+    color: white;
 }
 
 .project_col {
