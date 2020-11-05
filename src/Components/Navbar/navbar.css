@@ -73,7 +73,7 @@ a:hover {
 
     .toolbar {
         padding: 0 20px;
-        opacity: 100% !important;
+        opacity: 1.0 !important;
     }
 }
 
