@@ -7,7 +7,7 @@ import './connect.css';
 
 const connect = () => {
     return (
-        <Container name="connect">
+        <Container name="connect" className="connect">
             <Row>
                 <Col>
                     <h2>Connect</h2>
@@ -15,13 +15,13 @@ const connect = () => {
             </Row>
             <Row>
                 <Col>
-                    <p>Looking to hire? Have a project you would like to collaborate on? Reach out to me via one of the links below:</p>
+                    <p className="connect_text">Looking to hire? Have a project you would like to collaborate on? Reach out to me via one of the links below:</p>
                 </Col>
             </Row>
             <Row>
                 <Col>
-                    <Image className="connect_logo" src={LinkedInPhoto} thumbnail />
-                    <Image className="connect_logo" src={GithubPhoto} thumbnail />
+                    <a rel="noopener noreferrer" target="_blank" href="https://www.linkedin.com/in/toby-jorris/"><Image className="connect_logo" src={LinkedInPhoto} thumbnail /></a>
+                    <a rel="noopener noreferrer" target="_blank" href="https://github.com/tobyjorris"><Image className="connect_logo" src={GithubPhoto} thumbnail /></a>
                 </Col>
             </Row>
         </Container>

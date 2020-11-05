@@ -4,7 +4,7 @@
     color: white;
     border-radius: 0;
     border: none;
-    opacity: 85%;
+    opacity: .85;
 }
 
 .card-body {
@@ -21,7 +21,7 @@
 
 .project_card:hover {
     transform: scale(1.05);
-    opacity: 100%;
+    opacity: 1.00;
     transition: 400ms;
 }
 

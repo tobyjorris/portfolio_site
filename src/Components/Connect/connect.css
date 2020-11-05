@@ -2,11 +2,20 @@
     max-width: 150px;
     height: auto;
     margin: 25px;
-    border: 1px solid black;
+    border: 1px solid gray;
     border-radius: 0;
 }
 
 .connect_logo:hover {
+    cursor: pointer;
     transform: scale(1.05);
     transition: 400ms;
+}
+
+.connect {
+    margin-bottom: 65px;
+}
+
+.connect_text {
+    font-size: 20px;
 }
