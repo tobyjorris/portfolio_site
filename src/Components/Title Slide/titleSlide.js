@@ -3,7 +3,7 @@ import './titleSlide.css';
 import { Container, Row, Col } from "react-bootstrap";
 import Carousel from '../HeaderCarousel/carousel'
 
-const titleSlide = props => {
+const titleSlide = () => {
     return (
         <Container className="header" fluid>
             <Row>
@@ -11,7 +11,6 @@ const titleSlide = props => {
                     <Carousel className="titleCarousel" />
                 </Col>
             </Row>
-
             <div className="spacer"> </div>
         </Container>
     )
