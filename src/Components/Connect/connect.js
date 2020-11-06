@@ -10,7 +10,7 @@ const connect = () => {
         <Container name="connect" className="connect">
             <Row>
                 <Col>
-                    <h2>Connect</h2>
+                    <h2 className="connect_title">Connect</h2>
                 </Col>
             </Row>
             <Row>

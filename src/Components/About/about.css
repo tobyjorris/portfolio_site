@@ -2,3 +2,26 @@
     padding-top: 50px;
 }
 
+.about_title {
+    font-size: 3.5rem;
+}
+
+@media (max-width: 576px) {
+    .about {
+        padding-top: 20px;
+    }
+
+    .about_title {
+        font-size: 2.5rem;
+    }
+
+    .gif {
+        height: 100px;
+        width: 100px;
+    }
+
+    .hr-about {
+        margin: 20px 0 !important;
+    }
+}
+

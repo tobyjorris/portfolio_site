@@ -5,7 +5,7 @@ import './carousel.css'
 const carousel = () => {
     return(
         <Container className="wordCarousel">
-            <Row className="carouselRow justify-content-start">
+            <Row className="carouselRow justify-content-start justify-content-xl-start">
                 <Col className="carouselCol" xs={12} sm={4} md={3} lg={3} xl={{span: 3, offset: 2}}>
                     <span>Hi, I'm Toby: </span>
                 </Col>
@@ -13,7 +13,7 @@ const carousel = () => {
                     <div className="wordCarouselDiv">
                         <ul className="flip4">
                             <li>Developer</li>
-                            <li>Self Learning</li>
+                            <li>Self Learner</li>
                             <li>Driven</li>
                             <li>Personable</li>
                         </ul>

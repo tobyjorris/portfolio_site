@@ -42,7 +42,7 @@ const projects = () => {
             </Row>
             <Row>
                 <Col>
-                    <hr className="hr"/>
+                    <hr className="hr project_hr"/>
                 </Col>
             </Row>
         </Container>

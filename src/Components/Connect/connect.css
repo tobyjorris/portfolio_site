@@ -19,3 +19,17 @@
 .connect_text {
     font-size: 20px;
 }
+
+@media (max-width: 576px) {
+    .connect_logo {
+        width: 75px;
+    }
+
+    .connect_title {
+        font-size: 2.5rem;
+    }
+
+    .connect_text {
+        font-size: inherit;
+    }
+}

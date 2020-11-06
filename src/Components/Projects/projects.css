@@ -1,5 +1,21 @@
 .project_title {
     margin-bottom: 50px;
+    font-size: 3.5rem;
+}
+
+@media (max-width: 576px) {
+    .project_title {
+        margin-bottom: 20px;
+        font-size: 2.5rem;
+    }
+
+    .projects {
+        padding: 0 40px;
+    }
+
+    .project_hr {
+        margin: 20px -20px !important;
+    }
 }
 
 
