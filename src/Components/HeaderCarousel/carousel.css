@@ -22,6 +22,10 @@
     margin-top: 200px;
 }
 
+.secondCol {
+    padding-left: 0;
+}
+
 .flip4 li {
     font-family: Serif sans-serif;
     color: black;
@@ -92,6 +96,10 @@
         margin-left: 10px;
     }
 
+    .secondCol {
+        padding-left: 15px;
+    }
+
 }
 
 @media (min-width: 577px) and (max-width: 768px) {
@@ -103,10 +111,6 @@
     .carouselRow {
         margin-top: 125px;
         margin-left: 0;
-    }
-
-    .secondCol {
-        padding-left: 0;
     }
 }
 
@@ -132,6 +136,12 @@
 
     .carouselCol {
         margin-left: 20px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .secondCol {
+        padding-left: 25px;
     }
 }
 

@@ -1,6 +1,5 @@
 .toolbar {
     font-size: 1.4rem;
-
     height: 50px;
 }
 
@@ -8,11 +7,9 @@
     background-color: gray;
 }
 
-#brand_text {
-    color: black;
-    font-weight: bold;
-    font-size: 2.0rem;
-    font-family: 'ABeeZee', sans-serif;
+.brand_image {
+    height: 40px;
+    width: auto;
 }
 
 #contact {
@@ -66,20 +63,27 @@ a:hover {
 }
 
 @media (min-width: 280px) and (max-width: 576px) {
-    #brand_text {
-        font-size: 1.2rem;
-    }
-
     .link {
         font-size: 20px;
+    }
+
+    .navbar {
+        padding: 0 20px;
+    }
+
+    .brand_image {
+        height: 30px;
     }
 }
 
 @media (min-width: 577px) and (max-width: 991px) {
-   #brand_text {
-       font-size: 30px;
-       padding-top: 0;
-   }
+    .brand_image {
+        height: 40px;
+        padding: 0 !important;
+    }
 
+    .navbar {
+        padding: 0 20px;
+    }
 }
 

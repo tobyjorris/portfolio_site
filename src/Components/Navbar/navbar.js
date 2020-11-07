@@ -1,6 +1,7 @@
 import React, { Component } from "react";
-import { Navbar, Nav } from "react-bootstrap";
+import { Navbar, Nav, Image } from "react-bootstrap";
 import { Link } from 'react-scroll'
+import Logo from '../../Assets/Toby Jorris Logo 400x160.svg';
 import './navbar.css';
 
 class toolbar extends Component {
@@ -46,7 +47,9 @@ class toolbar extends Component {
                             opacity: this.state.status === "top" ? "0%" : "100%",
                             transition: "400ms"
                         }}>
-                    <Navbar.Brand id="brand_text" href="/" onClick={this.handleBrandClick.bind(this)}>Toby Jorris</Navbar.Brand>
+                    <Navbar.Brand href="/" onClick={this.handleBrandClick.bind(this)}>
+                        <Image src={Logo} className="brand_image" />
+                    </Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav" >
                         <Nav className="mr-auto">
