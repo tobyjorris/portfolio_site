@@ -15,6 +15,7 @@
     height: 100px;
     padding-top: 10px;
     margin-top: -10px;
+    text-align: start;
 }
 
 .carouselRow {

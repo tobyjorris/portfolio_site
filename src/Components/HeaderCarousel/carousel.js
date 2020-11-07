@@ -13,7 +13,7 @@ const carousel = () => {
                     <div className="wordCarouselDiv">
                         <ul className="flip4">
                             <li>Developer</li>
-                            <li>Self Learner</li>
+                            <li>Learner</li>
                             <li>Driven</li>
                             <li>Personable</li>
                         </ul>
