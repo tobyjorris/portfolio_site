@@ -16,7 +16,7 @@ const about = () => {
                     <Image className="gif" src={AboutGif} alt="About Me Gif"/>
                 </Col>
                 <Col xs="12" sm={12} md={6} lg={5} className="d-flex justify-content-center align-items-center">
-                    <p>I'm a driven, proven, self-motivated web developer and experienced retail manager with more than nine years of management
+                    <p className="about_text">I'm a driven, proven, self-motivated web developer and experienced retail manager with more than nine years of management
                         experience and excellent communication and people skills looking to leverage a rich background in logical and outside-the-box problem solving into a web development position. I'm passionate about building high quality front-end components, and love the challenge of handling complex data manipulation. </p>
                 </Col>
             </Row>
